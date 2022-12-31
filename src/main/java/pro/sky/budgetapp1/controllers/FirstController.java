@@ -14,6 +14,6 @@ public class FirstController {
     }
 @GetMapping("/path/to/page")
     public String page(@RequestParam String page) {
-        return "Anna" + page;
+        return "Anna" + page ;
     }
 }
